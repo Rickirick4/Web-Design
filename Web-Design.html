@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>First</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/e06111f6fc.js" crossorigin="anonymous"></script>
+    <style>
+        .jumbotron {
+            background-image: url(imge/3.jfif);
+            background-size: cover;
+            background-position: bottom;
+            margin-top: 40px;
+        }
+
+        body {
+            background-color: #aaa;
+            position: relative;
+        }
+
+        a {
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <nav class="navbar bg-dark navbar-dark navbar-expand-sm fixed-top">
+        <a href="#" class="navbar-brand"><i class="fas fa-bacon"></i></a>
+
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto ">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="jumbotron text-white">
+        <div class="container">
+            <h1>Web Blog</h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit blanditiis ab praesentium nulla voluptate, sunt expedita asperiores ducimus quidem accusantium unde, voluptatum quae eos doloremque odio labore. Ut, pariatur, temporibus?</p>
+            <hr class="bg-light">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos quidem amet ut quam voluptatum perspiciatis provident doloremque animi, at quaerat. Dolor ea, sed delectus nihil vero unde, enim autem tempore!</p>
+        </div>
+    </div>
+
+    <brc>
+        <div class="container p-3">
+            <ol class="breadcrumb bg-dark">
+                <li class="breadcrumb-item active">
+                    <h5>What are we doing?</h5>
+                </li>
+            </ol>
+            <ol class="breadcrumb bg-dark">
+                <li class="breadcrumb-item active">
+                    <h5>How can we make web site?</h5>
+                </li>
+            </ol>
+            <ol class="breadcrumb bg-dark">
+                <li class="breadcrumb-item active">
+                    <h5>Why should we choose Rickirick web site?</h5>
+                </li>
+            </ol>
+        </div>
+    </brc>
+
+
+
+    <div class="mx-auto card my-3 bg-dark w-75">
+        <div id="slider1" class="carousel slide carousel-fade my-5">
+            <ol class="carousel-indicators">
+                <li data-target="#slider1" data-slide-to="0"></li>
+                <li data-target="#slider1" data-slide-to="1"></li>
+                <li data-target="#slider1" data-slide-to="2"></li>
+            </ol>
+            <div class="card-header">
+                <h5 class="text-white">Some News</h5>
+            </div>
+            <div class="card-body mx-5">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="imge/9.png" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Lorem ipsum dolor sit amet.</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, vitae totam molestiae error ea, omnis ipsa sit quae officiis! Minus voluptatibus inventore rerum voluptatum eligendi quae sapiente natus eos aspernatur?</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="imge/yeni.jfif" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Lorem ipsum.</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum at impedit reiciendis, assumenda, possimus quo.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="imge/8.jfif" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Lorem ipsum dolor.</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum animi dolorem atque totam fugiat molestiae, aliquid sequi ex..</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#slider1" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#slider1" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+        <div class="card-footer pb-4">
+            <a href="#" class="text-white float-right">See More</a>
+        </div>
+    </div>
+
+
+    <div id="accordion" class="container mt-5">
+        <div class="card bg-dark">
+            <div class="card-header p-3">
+                <a href="#collapseOne" class="card-link text-white" data-toggle="collapse">About Web Sites</a>
+            </div>
+            <div class="collapse show" id="collapseOne" data-parent="#accordion">
+                <div class="card-body text-white">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti beatae vel autem, modi nesciunt repudiandae reiciendis, magnam similique perferendis soluta, aliquid temporibus quibusdam delectus. Consequuntur dolor sequi accusamus placeat error saepe, natus nam fugit consequatur rerum doloremque dolore commodi dignissimos! Fugit dolorum odio voluptas neque ab, nulla quam officia a!
+                </div>
+            </div>
+        </div>
+
+        <div class="card mt-3">
+            <div class="card-header">
+                <a href="#collapseTwo" class="card-link text-dark" data-toggle="collapse">Web Design</a>
+            </div>
+            <div class="collapse" id="collapseTwo" data-parent="#accordion">
+                <div class="card-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa non, cumque voluptate similique. Expedita sed sequi, debitis id. Debitis dolor dignissimos fuga hic quod, ipsa quia officiis corporis doloribus et.
+                </div>
+            </div>
+        </div>
+
+        <div class="card mt-3 bg-dark text-white">
+            <div class="card-header">
+                <a href="#collapseThree" class="card-link text-white" data-toggle="collapse">Web Blog</a>
+            </div>
+            <div class="collapse" id="collapseThree" data-parent="#accordion">
+                <div class="card-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos numquam, repudiandae reprehenderit commodi minima quos eum consectetur eaque sed quibusdam, assumenda distinctio iste. Veritatis voluptates accusamus hic consequuntur omnis odio saepe nisi quidem ex a qui totam assumenda atque, iusto dicta. Impedit molestias voluptatum facere dolores nostrum possimus harum, ullam!
+                </div>
+            </div>
+        </div>
+
+        <div class="card mt-3">
+            <div class="card-header">
+                <a href="#collapseFour" class="card-link text-dark" data-toggle="collapse">Soft Engineering</a>
+            </div>
+            <div class="collapse" id="collapseFour" data-parent="#accordion">
+                <div class="card-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus vitae molestiae vero, corporis impedit illo facere.
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <div class="mx-auto my-5">
+        <div class="card w-25 my-3 mt-5 bg-dark float-left text-white ml-5">
+            <div class="card-header">Fetured</div>
+            <div class="card-body text-center">
+                <h5>Join Creatif Photos
+                </h5>
+                <div class="clearfix">
+                    <img src="imge/4.jfif" alt="" class="mx-auto my-5 container">
+                </div>
+                <p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis sed ab repellat eos, pariatur tempora, aliquam quia sequi nemo eum nihil nesciunt incidunt dicta quibusdam numquam inventore, animi consequuntur id.</p>
+                <div class="card-footer text-right">
+                    <a href="#" class="float-left text-white">Read More...</a>
+                    3 Days Ago
+                </div>
+            </div>
+        </div>
+
+        <div class="card w-25 my-3 mt-5 bg-dark float-right text-white mr-5">
+            <div class="card-header">Fetured</div>
+            <div class="card-body text-center">
+                <h5>Interesting Web Design</h5>
+                <div class="clearfix">
+                    <img src="imge/5.jfif" alt="" class="mx-auto my-5 container">
+                </div>
+                <p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui exercitationem sequi, eius provident aspernatur eos esse earum nemo illum dicta, quasi fugiat repudiandae eveniet. Fugit praesentium adipisci assumenda, libero consequatur. Lorem ipsum dolor sit.</p>
+                <div class="card-footer text-right">
+                    <a href="#" class="float-left text-white">Read More...</a>
+                    5 Days Ago
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card w-25 my-3 mt-5 bg-dark mx-auto text-white mr-5">
+            <div class="card-header">Fetured</div>
+            <div class="card-body text-center">
+                <h5>Web Developing Blog</h5>
+                <div class="clearfix">
+                    <img src="imge/6.jfif" alt="" class="mx-auto my-5 container">
+                </div>
+            </div>
+            <p class="card-text text-left ml-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui exercitationem sequi, eius provident aspernatur eos esse earum nemo illum dicta, quasi fugiat repudiandae eveniet. Fugit praesentium adipisci assumenda, libero consequatur.</p>
+            <div class="card-footer text-right">
+                <a href="#" class="float-left text-white">Read More...</a>
+                4 Days Ago
+            </div>
+        </div>
+    </div>
+
+
+    <div style="margin-top: 200px;">
+
+        <div id="home">
+            <div class="container-fluid bg-info mt-5" style="padding-top: 50px; padding-bottom: 130px;">
+                <h1>Home</h1>
+                <hr>
+                <p style="font-size: 18px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias ipsam enim illo unde iure, ab sed rem omnis veniam. Itaque nemo, laborum odit earum eveniet. Asperiores aperiam nemo qui hic suscipit deserunt, accusamus iste facilis ex ad, itaque minus consectetur dolores eius placeat quaerat. Rem tempore quos hic, assumenda cumque, tenetur culpa. Officia porro alias commodi possimus quis aut fugit.</p>
+            </div>
+        </div>
+
+        <div id="about">
+            <div class="container-fluid bg-light" style="padding-bottom: 130px; padding-top: 50px;">
+                <h1>About</h1>
+                <hr class="bg-dark">
+                <p style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, labore debitis cum laboriosam, quos temporibus, enim ab eaque dolores quo amet officia eligendi deleniti modi sequi optio asperiores iusto deserunt porro aliquid consequatur maxime totam. Dolor esse quia fugit id modi consectetur, itaque sed neque ea facilis dolores sit, quae doloremque sequi debitis, exercitationem ad laboriosam voluptatibus voluptates praesentium ipsa velit iusto laudantium nesciunt quibusdam! Voluptas repellat vitae labore voluptatibus quasi nesciunt iste porro ab, corrupti, quaerat deserunt culpa ut.</p>
+            </div>
+        </div>
+
+        <div id="contact">
+            <div class="container-fluid bg-dark text-white" style="padding-top: 50px; padding-bottom: 130px;">
+                <h1>Contact</h1>
+                <hr class="bg-white">
+                <p style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam praesentium, optio error sunt impedit laborum explicabo minima suscipit, id, cumque aliquam enim nisi itaque qui distinctio atque voluptate beatae velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi vel tenetur eum ullam mollitia dolor, aliquam, fugit veniam incidunt sunt repellat totam. Optio commodi rem eaque laboriosam, vitae culpa ipsam?</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container card bg-dark text-white my-5 p-5">
+        <div class="card-header">
+            <h1 class="text-center" style="font-size: 55px;">Jouin Us</h1>
+            <hr class="border">
+        </div>
+        <div class="card-body">
+            <form>
+                <div class="form-group mb-4">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" class="form-control" placeholder="Enter Name">
+                </div>
+                <div class="form-group mb-4">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" class="form-control" placeholder="Enter Username">
+                </div>
+                <div class="form-group mb-4">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="form-control" placeholder="Enter Email">
+                    <small class="form-text text-muted">
+                        Please Correct Email Address
+                    </small>
+                </div>
+                <div class="form-group mb-4">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" class="form-control" placeholder="Enter Password">
+                </div>
+                <div class="form-group">
+                    <label for="repeat">Repeat Password</label>
+                    <input type="password" id="repeat" class="form-control" placeholder="Repeat Password">
+                </div>
+            </form>
+        </div>
+        <div class="card-footer">
+            <button id="btnModal" type="button" class="btn btn-lg btn-primary my-2 px-4 float-right">Register</button>
+        </div>
+
+        <div class="modal fade" id="Modal">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Register is Success</h4>
+                        <button class="close" type="button" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">Welcome to family!</div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="py-5 bg-dark text-white text-center">
+        Copyright © Rickirick Website
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+    <script>
+        $(function() {
+
+            $('#slider1').carousel({
+                interval: 4000,
+                pause: 'hover'
+            });
+        });
+
+        $(function() {
+            $('#btnModal').click(function() {
+                $('#Modal').modal('show');
+                console.log("click");
+            });
+
+            $('#Modal').on('hide.bs.modal', function(e) {
+                console.log('hide');
+            });
+
+            $('#Modal').on('hidden.bs.modal', function(e) {
+                console.log('hidden');
+            });
+
+            $('#Modal').on('show.bs.modal', function(e) {
+                console.log('show');
+            });
+
+            $('#Modal').on('shown.bs.modal', function(e) {
+                console.log('shown');
+            });
+
+        });
+    </script>
+
+</body></html>
